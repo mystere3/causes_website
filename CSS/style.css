@@ -76,8 +76,8 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.button:hover{
-	background-color: red;
+.button:hover{ /*when the mouse hovers over the button, the background will slightly change*/
+	background-color: rgb(255,194,123);
 }
 /*Syling for links*/
 a:link{
