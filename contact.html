@@ -3,6 +3,8 @@
 	<head>
 		<title>Seeing Eye Cats 4 Lazy PPL</title>
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="scripts/main.js"></script>
 	</head>
 	<body>
@@ -21,11 +23,11 @@
 				<p>Send us a message: <br>
 					Name: <br><input type="text" id="nameField"><br>
 					Subject: <br><input type="text" id="subjectField"><br>
-					Content: <br><input type="text" id="contentField"><br>
-					<a id="messSubmitButton" class="button" onclick="messageSubmit()"></a>
-				</p>
+					Content: <br><input type="text" id="contentField"><br><br>
+					<a id="messageButton" class="button" onclick="messageSubmit()">Submit</a>
+				</p><br>
 
-				<p><a class="button" href="mailto:mystere3@msn.com?Subject=Youll%20never%20get%20a%20response" target="_top">Email us!</a></p>
+				<p><a id="emailButton" class="button" href="mailto:mystere3@msn.com?Subject=Youll%20never%20get%20a%20response" target="_top">Email us!</a></p>
 
 				<h3>Come visit us!</h3>
 				<p>I'm not exactly sure where we are, but we're somewhere around here:</p>

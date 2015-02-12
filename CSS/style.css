@@ -69,6 +69,22 @@ body{
 	padding: 0; /*this got rid of the line indentation for lists*/
 	list-style-type: none; /*this gets rid of bullet points for lists*/
 }
+
+#messageButton{
+background-color: #FFB871;
+margin-top: 50px;
+}
+#messageButton.hover{ /*when the mouse hovers over the button, the background will slightly change*/
+	background-color: rgb(255,194,123);
+}
+
+#emailButton{
+background-color: #FFB871;
+}
+#emailButton.hover{ /*when the mouse hovers over the button, the background will slightly change*/
+	background-color: rgb(255,194,123);
+}
+
 .button{
 	font-size: 26pt;
 	font-family: Helvetica;
@@ -77,6 +93,15 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+#emailButton{
+	background-color: #FFB871;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+#emailButton.hover{ /*when the mouse hovers over the button, the background will slightly change*/
+	background-color: rgb(255,194,123);
+}
+
 .button:hover{ /*when the mouse hovers over the button, the background will slightly change*/
 	background-color: rgb(255,194,123);
 }
