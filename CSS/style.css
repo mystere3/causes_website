@@ -1,12 +1,13 @@
 body{
-	background-color: #37219A;
+	background-image: url("../images/background.jpg");
+	background-color: #cccccc;
 }
 #container{
 	overflow: hidden;
 	min-height: 100%;
 	margin: auto;
 	border: black 2px solid;
-	background-color: #37219A;
+	background-color: rgba(255,255,255,0.3);
 }
 #banner{
 	/*border: solid green 2px;*/
@@ -17,7 +18,7 @@ body{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 30pt;
 	font-weight: bold;
-	background-color: #6E5EB8;
+	background-color: rgba(255,255,255,0.6);
 }
 #sidebar{
 	/*border: solid green 2px;*/
@@ -28,7 +29,7 @@ body{
 	margin-top: 1em;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 12pt;
-	background-color: #FFB871;
+	background-color: rgba(255,255,255,0.6);
 }
 #content{
 	/*border: solid green 2px;*/
@@ -40,7 +41,7 @@ body{
 	margin-left: 1em;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 12pt;
-	background-color: #4D97A8;
+	background-color: rgba(255,255,255,0.6);
 	padding-left: .5em;
 }
 .AboutUs{
@@ -112,4 +113,7 @@ a:link{
 }
 a:visited {
     text-decoration: none;
+}
+.catCursor{
+    cursor:url(../images/cursorCat.png), auto;
 }
